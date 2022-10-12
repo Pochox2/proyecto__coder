@@ -5,24 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criptowins</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <header>
-        <nav class="navbar container">
-            <img class="navbar__img" src ="./img/logo.png" alt="Logo de la pagina Criptowins" width="313" height="130">       
-            <ul class="menu">
-                <li class="menu__item"><a class="menu__link" href="./index.html">Inicio</a> </li>
-                <li class="menu__item"><a class="menu__link" href="./pages/historia.html">Historia</a></li>
-                <li class="menu__item"><a class="menu__link" href="./pages/top-10.html">Top 10</a></li>
-                <li class="menu__item"><a class="menu__link" href="./pages/noticias.html">Noticias</a></li>
-                <li class="menu__item"><a class="menu__link" href="./pages/contacto.html">Contacto</a></li>
-
-            </ul>
+        <nav class="navbar container navbar-expand-lg">
+            <div class="container-fluid">
+                <img class="navbar__img" src ="./img/logo.png" alt="Logo de la pagina Criptowins" width="313" height="130">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">  
+                    <div class="navbar-nav">     
+                        <ul class="menu">
+                            <li class="menu__item"><a class="menu__link nav-link" href="./index.html">Inicio</a> </li>
+                            <li class="menu__item"><a class="menu__link nav-link" href="./pages/historia.html">Historia</a></li>
+                            <li class="menu__item"><a class="menu__link nav-link" href="./pages/top-10.html">Top 10</a></li>
+                            <li class="menu__item"><a class="menu__link nav-link" href="./pages/noticias.html">Noticias</a></li>
+                            <li class="menu__item"><a class="menu__link nav-link" href="./pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
         </nav>
     </header>
     <section class="banner" id="banner">
-<img class="banner__img" src="./img/banner.png" alt="banner" width="1900px" >
+        <img class="banner__img" src="./img/banner.png" alt="banner" width="1900px" >
     </section>
     <main class="container">
         
@@ -43,45 +52,45 @@
             </article>
         </section>
         <section id="noticias">
-            <article class="card">
+            <article class="tarjeta">
                 <div>
-                    <figure class="card__img">
+                    <figure class="tarjeta__img">
                         <img class="noticia__img" src="./img/noticia1.png" alt="Imagén en la que se puede apreciar monedas de Ethereum">
                     </figure>
                 </div>
                 <div>
-                    <h2 class="card__tittle">Ethereum Merge: en qué consiste la fusión que pone a prueba a la criptos</h2>
-                    <p class="card__description">Ethereum tendrá una actualización que tiene como objetivo reducir drásticamente la cantidad de energía necesaria para la creación de nuevos tokens y realizar transacciones.</p>
-                    <button class="card__button">
-                        <a class="card__link" href="./pages/noticias.html">Leer más..</a>
+                    <h2 class="tarjeta__tittle">Ethereum Merge: en qué consiste la fusión que pone a prueba a la criptos</h2>
+                    <p class="tarjeta__description">Ethereum tendrá una actualización que tiene como objetivo reducir drásticamente la cantidad de energía necesaria para la creación de nuevos tokens y realizar transacciones.</p>
+                    <button class="tarjeta__button">
+                        <a class="tarjeta__link" href="./pages/noticias.html">Leer más..</a>
                     </button>
                 </div>
             </article>
-            <article class="card card2">
+            <article class="tarjeta card2">
                 <div>
-                    <h2 class="card__tittle">Millonaria por sorpresa: una mujer tenía que cobrar 100 euros en criptos y recibió 10 millones por error</h2>
-                    <p class="card__description">La inversora recibió 10 millones de dólares de un plumazo y se gastó casi millón y medio en una casa de lujo.</p>
+                    <h2 class="tarjeta__tittle">Millonaria por sorpresa: una mujer tenía que cobrar 100 euros en criptos y recibió 10 millones por error</h2>
+                    <p class="tarjeta__description">La inversora recibió 10 millones de dólares de un plumazo y se gastó casi millón y medio en una casa de lujo.</p>
                     <button class="card__button2">
-                        <a class="card__link"  href="./pages/noticias.html">Leer más..</a>
+                        <a class="tarjeta__link"  href="./pages/noticias.html">Leer más..</a>
                     </button>
                 </div>
                 <div>  
-                    <figure class="card__img">
+                    <figure class="tarjeta__img">
                         <img class="noticia__img" src="./img/noticia2.png" alt="Imagen donde se ve una chica pasando por un puente que lleva a una planta que te da criptos">
                     </figure>
                 </div>  
             </article>
-            <article class="card">
+            <article class="tarjeta">
                 <div>
-                    <figure class="card__img">
+                    <figure class="tarjeta__img">
                         <img class="noticia__img" src="./img/noticia3.png" alt="Avion rumbo al mundial Qatar 2022">
                     </figure>
                 </div>
                 <div>
-                    <h2 class="card__tittle">Criptos relacionadas al Mundial de Qatar 2022 registran un alza en los mercados</h2>
-                    <p class="card__description">El hype por el mundial de Qatar está alcanzando a todos los ámbitos de la vida, inclusive a las criptomonedas.</p>
-                    <button class="card__button">
-                        <a class="card__link"  href="./pages/noticias.html">Leer más..</a>
+                    <h2 class="tarjeta__tittle">Criptos relacionadas al Mundial de Qatar 2022 registran un alza en los mercados</h2>
+                    <p class="tarjeta__description">El hype por el mundial de Qatar está alcanzando a todos los ámbitos de la vida, inclusive a las criptomonedas.</p>
+                    <button class="tarjeta__button">
+                        <a class="tarjeta__link"  href="./pages/noticias.html">Leer más..</a>
                     </button>
                 </div>
             </article>
@@ -93,5 +102,6 @@
             <a class="footer__link" href="./pages/contacto.html">Contacto</a>
         </button>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html> 

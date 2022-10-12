@@ -70,9 +70,7 @@ header {
     justify-content: space-between;
 }
 
-.navbar .navbar__link {
-    /* display: inline-block; */
-}
+
 
 .navbar .menu{
     display: flex;
@@ -89,6 +87,7 @@ header {
 
 .navbar .menu .menu__link {
     color: var(--secondary);
+    font-size: var(--text-md);
     transition: all .3s ease-in-out;
     padding: 20px 20px;
     margin-top: 10px;
@@ -103,10 +102,10 @@ header {
 #historia {
     background-color: var(--primary);
     width: 1904px;
-    height: 250px;
+    height: 280px;
     position: relative;
     bottom: 5px;
-    right: 352px;
+    right: 359px;
     display: flex;
 
     
@@ -135,22 +134,19 @@ p{
     float: right;
     width: 120px;
     height: 50px;
-    transition: all .3s ease-in-out;
-}
-
-.historia__button:hover{
-    background-color: #000000;
-}
-
-.historia__link:hover{
-
-    color: #F4F4ED;
+    
 }
 
 .historia__link {
-    font-size: var(--text-sm);
+    font-size: var(--text-xs);
     color: #000000;
     transition: all .3s ease-in-out;
+    padding: 10px 11px 11px 11px;
+}
+
+.historia__link:hover{
+    background-color: #000000;
+    color: #F4F4ED;
 }
 
 .historia__titulo {
@@ -188,60 +184,44 @@ p{
     left: 50%; */
 }
 
-/* .noticia__img2{
-    width: 574px;
-    height: 259px;
 
-    
-} */
 
-.card
+.tarjeta
 {
     width: 1200;
     height: 259;
     display: flex;
 
-    /* position: relative;
-    right: 28.6%; */
-    /* border: solid black 2px */
+
 }
 
-/* .grid__card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-} */
 
 
 
 
 
-.card .card__tittle
+
+.tarjeta .tarjeta__tittle
 {
     padding: 20px;
     font-size: var(--text-sm);
 
 
-    /* width: 600px; */
-}
-
-.card .card__img
-{
-    /* display: inline-block; */
 
 }
 
-.card .card__description
+
+.tarjeta .tarjeta__description
 {
     padding: 20px;
     font-size: var(--text-xs);
 
-    /* width: 600px; */
+
     
 
 }
 
-.card__button {
+.tarjeta__button {
     background-color: #EFA00B;
     text-decoration: none;
     margin-left: 600px;
@@ -256,18 +236,24 @@ p{
     height: 60px;    
 }
 
-.card__button {
+.tarjeta__button {
     width: 130px;
     height: 60px;
 
     
 }
 
-.card .card__link {
-    font-size: var(--text-sm);
+.tarjeta .tarjeta__link {
+    font-size: var(--text-xs);
     color: #F4F4ED;
+    padding: 15px 18px 14px 18px;
+    transition: all .3s ease-in-out;
 }
 
+.tarjeta .tarjeta__link:hover{
+    background-color: #ecaf3d;
+    color: #000000;
+}
 
 .noticia {
     margin-top: 50px;
@@ -279,7 +265,7 @@ p{
 }
 
 .noticia__imagen {
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     position: relative;
     bottom: 235px;
@@ -301,6 +287,10 @@ p{
     text-align: center;
     padding-bottom: 50px;
     padding-top: 20px;
+}
+
+.ultima{
+padding-bottom: 210px;
 }
  
 .top10__tittle{
@@ -328,6 +318,10 @@ p{
     margin-left: 120px;
 }
 
+.top10 {
+    padding-bottom: 65px;
+}
+
 table td{
     border: #000000 solid 2px;
 }
@@ -340,6 +334,10 @@ table th {
     text-align: center;
 }
 
+.contacto{
+    padding-bottom: 179px;
+}
+
 .contacto__tittle{
     text-align: center;
 }
@@ -347,11 +345,19 @@ table th {
 footer {
     background-color: #EFA00B;
     padding: var(--sp-sm);
-    position: relative;
-    top: 200px;
+    /* position: relative;
+    top: 200px; */
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
 }
 
+
+.mover {
+ right: 20px;
+}
 
 
 .footer__button{
@@ -363,6 +369,12 @@ footer {
 
 .footer__link {
     color: #000000;
-    font-size: var(--text-sm);
-    
+    font-size: var(--text-xs);
+    transition: all .3s ease-in-out;
 }
+
+.footer__link:hover{
+    background-color: #000000;
+    color: #F4F4ED;
+}
+

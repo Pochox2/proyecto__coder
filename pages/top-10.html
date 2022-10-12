@@ -5,20 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP 10</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <header>
-        <nav class="navbar container">
-            <img class="navbar__img" src ="../img/logo.png" alt="Logo de la pagina Criptowins" width="313" height="130">       
-            <ul class="menu">
-                <li class="menu__item"><a class="menu__link" href="../index.html">Inicio</a> </li>
-                <li class="menu__item"><a class="menu__link" href="./historia.html">Historia</a></li>
-                <li class="menu__item"><a class="menu__link" href="./top-10.html">Top 10</a></li>
-                <li class="menu__item"><a class="menu__link" href="./noticias.html">Noticias</a></li>
-                <li class="menu__item"><a class="menu__link" href="./contacto.html">Contacto</a></li>
-
-            </ul>
+        <nav class="navbar container navbar-expand-lg">
+            <div class="container-fluid">
+                <img class="navbar__img" src="../img/logo.png" alt="Logo de la pagina Criptowins" width="313" height="130">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">  
+                    <div class="navbar-nav">     
+                        <ul class="menu">
+                            <li class="menu__item"><a class="menu__link nav-link" href="../index.html">Inicio</a> </li>
+                            <li class="menu__item"><a class="menu__link nav-link" href="./historia.html">Historia</a></li>
+                            <li class="menu__item"><a class="menu__link nav-link" href="./top-10.html">Top 10</a></li>
+                            <li class="menu__item"><a class="menu__link nav-link" href="./noticias.html">Noticias</a></li>
+                            <li class="menu__item"><a class="menu__link nav-link" href="./contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
         </nav>
     </header>
     <main>
@@ -156,5 +165,6 @@
             <a class="footer__link" href="./contacto.html">Contacto</a>
         </button>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
