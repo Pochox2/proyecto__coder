@@ -161,9 +161,7 @@ p{
 }
 
 .banner {
-    max-width: 1800px;
-    min-width: 0rem;
-    width: 1900px;
+    min-height: 250px;
 }
 
 .banner__img{
@@ -175,24 +173,27 @@ p{
 .noticias {
     margin-left: 120px;
     margin-right: 120px;
+    flex-wrap: wrap;
 }
 
 .noticia__img{
-    width: 574px;
-    height: 350px;
-    /* position: relative;
-    left: 50%; */
+    min-height: 225px;
+    min-width: 500px;
 }
 
-
+.noticia__img2{
+    min-height: 225px;
+    min-width: 500px;
+    float: right;
+}
 
 .tarjeta
 {
+    padding: 10px 0px;
     width: 1200;
     height: 259;
     display: flex;
-
-
+    flex-wrap: wrap;
 }
 
 
@@ -224,30 +225,40 @@ p{
 .tarjeta__button {
     background-color: #EFA00B;
     text-decoration: none;
-    margin-left: 600px;
-    
-}
-
-.card__button2 {
-    background-color: #EFA00B;
-    text-decoration: none;
-    margin-right: 600px;
-    width: 130px;
-    height: 60px;    
-}
-
-.tarjeta__button {
+    float: right;
     width: 130px;
     height: 60px;
-
+    font-size: var(--text-xs);
+    padding-top: 15px;
+    transition: all .3s ease-in-out;
     
+}
+
+.tarjeta__button2 {
+    background-color: #EFA00B;
+    text-decoration: none;
+    float: left;
+    width: 130px;
+    height: 60px;
+    font-size: var(--text-xs);
+    padding-top: 15px;
+    transition: all .3s ease-in-out;
+    
+}
+
+.tarjeta__button:hover {
+    background-color: #ecaf3d; 
+}
+
+.tarjeta__button2:hover {
+background-color: #ecaf3d;
 }
 
 .tarjeta .tarjeta__link {
     font-size: var(--text-xs);
     color: #F4F4ED;
     padding: 15px 18px 14px 18px;
-    transition: all .3s ease-in-out;
+    
 }
 
 .tarjeta .tarjeta__link:hover{
