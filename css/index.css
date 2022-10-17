@@ -342,6 +342,10 @@ table th {
     text-align: center;
 }
 
+.contacto__label {
+    margin: 5px;
+}
+
 .contacto{
     padding-bottom: 179px;
 }
