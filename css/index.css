@@ -138,6 +138,8 @@ p{
 }
 
 .historia__link {
+    background-color: #F4F4ED;
+    float: right;
     font-size: var(--text-xs);
     color: #000000;
     transition: all .3s ease-in-out;
@@ -366,14 +368,15 @@ footer {
 }
 
 
-.footer__button{
-    background-color: #F4F4ED;
-    float: right;
-    
 
+footer {
+    height: 65px;
 }
 
 .footer__link {
+    background-color: #F4F4ED;
+    text-decoration: none;
+    float: right;
     color: #000000;
     font-size: var(--text-xs);
     transition: all .3s ease-in-out;
