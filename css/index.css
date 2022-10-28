@@ -99,28 +99,21 @@ header {
 }
 
 
-#historia {
+.historia {
     background-color: var(--primary);
-    width: 1904px;
-    height: 280px;
-    position: relative;
-    bottom: 5px;
-    right: 359px;
     display: flex;
-
+    padding: 50px;
+    padding-right: 0px;
+    
     
 }
 
 .historia__texto {
- padding: 20px 0px 20px 10px;
- width: 850px;
- margin-right: 120px;
+ padding: 20px 10px 20px 10px;
 }
 
 .tt {
     font-size: var(--sp-lg);
-    width: 700px;
-    margin-left: 120px;
 
 }
 
@@ -134,6 +127,7 @@ p{
     float: right;
     width: 120px;
     height: 50px;
+    padding-right: 20px;
     
 }
 
@@ -162,10 +156,10 @@ p{
 
 }
 
-.banner {
+/* .banner {
     width: 100%;
     height: 450px;
-}
+} */
 
 
 
@@ -268,20 +262,18 @@ background-color: #ecaf3d;
 
 .noticia {
     margin-top: 50px;
+    display: flex;
 }
 
 .noticia p{
     display: inline-block;
-    width: 1000px;
 }
 
 .noticia__imagen {
-    /* display: inline-block; */
-    float: right;
-    position: relative;
-    bottom: 235px;
-    padding-right: 120px;
-    padding-bottom: 30px;
+    padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+    
 }
 
 .noticias_ p{
@@ -357,9 +349,6 @@ table th {
 footer {
     background-color: #EFA00B;
     padding: var(--sp-sm);
-    /* position: relative;
-    top: 200px; */
-    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -399,6 +388,10 @@ footer {
         margin-top: 10px;
     } 
 
+    .noticia__imagen {
+        padding-right: 120px;
+    }
+
 
 }
 
@@ -423,4 +416,37 @@ footer {
         margin-top: 7px;
     }
 
+    .noticias_ h1 {
+        font-size: var(--text-md);
+        padding-bottom: 0px;
+    }
+    
+    p{
+        padding: 10px 30px;
+    }
+
+    .noticias_ h2 {
+        padding: 10px 30px;
+    }
+
+    .noticia__imagen {
+        padding: 0px 20px;
+    }
+
+    .noticias_ {
+        flex-wrap: wrap-reverse;
+    }
+
+    .tt {
+        font-size: var(--text-md);
+    }
+
+    .noticia__img {
+        padding: 10px;
+        min-width: 0px;
+    }
+
+    .noticia__img2{
+        min-width: 0px;
+    }
 } 
