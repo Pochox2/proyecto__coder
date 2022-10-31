@@ -1,0 +1,24 @@
+/*footer*/
+footer {
+    background-color: #EFA00B;
+    padding: $sp-sm;
+    height: 65px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    .footer__link {
+        background-color: #F4F4ED;
+        text-decoration: none;
+        float: right;
+        color: #000000;
+        font-size: $text-xs;
+        transition: all .3s ease-in-out;
+
+        &:hover{
+            background-color: #000000;
+            color: #F4F4ED;
+        }
+    }
+}

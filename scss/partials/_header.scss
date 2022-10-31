@@ -1,0 +1,38 @@
+/*header*/
+header {
+
+    background-color: #EFA00B;
+    width: 100%;
+    
+    nav {
+        color: $secondary;
+        
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+
+        .menu{
+            display: flex;
+            justify-content: space-between;
+
+            .menu__item{
+                padding: 10px;
+            }
+    
+            .menu__link {
+                color: $secondary;
+                transition: all .3s ease-in-out;
+                padding: 20px 20px;
+                margin-top: 10px;
+
+                &:hover{
+                background-color: $light;
+                color: #000000;
+                }
+            }
+        }
+    }
+}
+

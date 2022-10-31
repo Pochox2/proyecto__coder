@@ -1,0 +1,24 @@
+/*imports*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+
+/*misc*/
+
+@import "./misc/variables";
+@import "./misc/normalize";
+
+/*partials*/
+
+@import "./partials/footer";
+@import "./partials/header";
+
+/*pages*/
+
+@import "./pages/noticias";
+@import "./pages/index";
+@import "./pages/historia";
+@import "./pages/contacto";
+@import "./pages/top-10";
+
+/*media*/
+@import "./misc/media";

@@ -1,0 +1,102 @@
+.historia {
+    background-color: $primary;
+    display: flex;
+    padding: 50px 0px ;
+
+
+    .historia__texto {
+        padding: 20px 10px 20px 10px;
+        
+        .tt {
+            font-size: $sp-lg;
+        
+        }
+    
+
+
+        p{
+        padding: 10px 0px;
+        }
+    }
+
+    .historia__link {
+        background-color: #F4F4ED;
+        float: right;
+        font-size: $text-xs;
+        color: #000000;
+        transition: all .3s ease-in-out;
+        padding: 10px 11px 11px 11px;
+        margin-right: 20px;
+
+
+        &:hover{
+        background-color: #000000;
+        color: #F4F4ED;
+        }
+    }    
+}
+
+.noticias {
+    flex-wrap: wrap;
+    
+    .tarjeta {
+        padding: 10px 0px;
+        width: 1200;
+        height: 259;
+        display: flex;
+        flex-wrap: wrap;
+    
+        .noticia__img{
+            min-height: 225px;
+            min-width: 500px;
+        }
+
+        .noticia__img2{
+            min-height: 225px;
+            min-width: 500px;
+            float: right;
+        }
+
+        .tarjeta__tittle {
+            padding: 20px;
+            font-size: $text-sm;
+        }
+
+        .tarjeta__description {
+            padding: 20px;
+            font-size: $text-xs;
+        }
+
+        .tarjeta__button {
+            background-color: #EFA00B;
+            text-decoration: none;
+            float: right;
+            width: 130px;
+            height: 60px;
+            font-size: $text-xs;
+            padding-top: 15px;
+            transition: all .3s ease-in-out;
+        
+            &:hover {
+                background-color: #ecaf3d; 
+            }
+        }
+
+        .tarjeta__button2 {
+            background-color: #EFA00B;
+            text-decoration: none;
+            float: left;
+            width: 130px;
+            height: 60px;
+            font-size: $text-xs;
+            padding-top: 15px;
+            transition: all .3s ease-in-out;
+        
+
+
+            &:hover {
+                background-color: #ecaf3d;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.top10 {
+    padding-bottom: 65px;
+
+    .top10__tittle{
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        font-size: $text-xl;
+    }
+
+    table{ 
+        td{
+            border: #000000 solid 2px;
+        }
+
+        th {
+        border: #000000 solid 2px;
+        }
+    }
+}

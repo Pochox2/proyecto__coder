@@ -1,0 +1,28 @@
+.contacto__tittle{
+    text-align: center;
+    font-size: $text-xl;
+}
+
+.contacto {
+    text-align: center;
+    border: 2px solid #EFA00B;
+    background-color: #ecaf3d; 
+    justify-content: center;
+    margin: 20px 100px;
+    border-radius: 10px;
+    padding-bottom: 179px;
+
+
+    .contacto__label {
+        margin: 5px;
+    }
+
+    .contacto__tittle{
+        text-align: center;
+        font-size: $text-xl;
+    }
+
+    .contacto__tt {
+        font-size: $text-md;
+    }
+}
