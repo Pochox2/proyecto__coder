@@ -1,7 +1,7 @@
 .historia {
     background-color: $primary;
     display: flex;
-    padding: 50px 0px ;
+    padding: 50px 100px ;
 
 
     .historia__texto {
@@ -40,7 +40,7 @@
     flex-wrap: wrap;
     
     .tarjeta {
-        padding: 10px 0px;
+        padding: 30px 0px;
         width: 1200;
         height: 259;
         display: flex;
@@ -58,12 +58,12 @@
         }
 
         .tarjeta__tittle {
-            padding: 20px;
+            padding: 20px 0px;
             font-size: $text-sm;
         }
 
         .tarjeta__description {
-            padding: 20px;
+            padding: 20px 0px;
             font-size: $text-xs;
         }
 

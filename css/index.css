@@ -29,6 +29,11 @@ a {
   max-width: 1200px;
   margin: 0 auto; }
 
+input {
+  border-color: #ecaf3d; }
+  input:focus {
+    border-color: #EFA00B; }
+
 /*partials*/
 /*footer*/
 footer {
@@ -88,7 +93,8 @@ header {
 
 .noticias_ .noticia {
   margin-top: 50px;
-  display: flex; }
+  display: flex;
+  padding: 20px; }
   .noticias_ .noticia p {
     display: inline-block; }
   .noticias_ .noticia .noticia__imagen {
@@ -102,7 +108,7 @@ header {
 .historia {
   background-color: #EFA00B;
   display: flex;
-  padding: 50px 0px; }
+  padding: 50px 100px; }
   .historia .historia__texto {
     padding: 20px 10px 20px 10px; }
     .historia .historia__texto .tt {
@@ -124,7 +130,7 @@ header {
 .noticias {
   flex-wrap: wrap; }
   .noticias .tarjeta {
-    padding: 10px 0px;
+    padding: 30px 0px;
     width: 1200;
     height: 259;
     display: flex;
@@ -137,10 +143,10 @@ header {
       min-width: 500px;
       float: right; }
     .noticias .tarjeta .tarjeta__tittle {
-      padding: 20px;
+      padding: 20px 0px;
       font-size: 1.6em; }
     .noticias .tarjeta .tarjeta__description {
-      padding: 20px;
+      padding: 20px 0px;
       font-size: 1.2em; }
     .noticias .tarjeta .tarjeta__button {
       background-color: #EFA00B;
@@ -192,6 +198,8 @@ header {
     font-size: 3.6em; }
   .contacto .contacto__tt {
     font-size: 2em; }
+  .contacto input:focus {
+    border-color: #EFA00B; }
 
 .top10 {
   padding-bottom: 65px; }

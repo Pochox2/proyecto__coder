@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar container">
+            <img class="navbar__img" src ="../img/logo.png" alt="Logo de la pagina Criptowins" width="160" height="130">       
+            <ul class="menu">
+                <li class="menu__item"><a class="menu__link" href="/html/index.html">INICIO</a> </li>
+                <li class="menu__item"><a class="menu__link" href="/html/historia.html">HISTORIA</a></li>
+                <li class="menu__item"><a class="menu__link" href="/html/top-10.html">TOP 10</a></li>
+                <li class="menu__item"><a class="menu__link" href="/html/noticias.html">NOTICIAS</a></li>
+                <li class="menu__item"><a class="menu__link" href="/html/contacto.html">CONTACTO</a></li>
+
+            </ul>
+        </nav>
+    </header>
+<br>
+    <section>
+        <h1 class="contacto__tittle">Contacto</h1>
+    </section>
+<br>
+    <section class="contacto">
+        <article>
+            <p>En este apartado podras comunicarte con nosotros por cualquier tipo de duda que tengas, o por si quieres aportar algo de gran valor a la pagina.</p>
+            <fieldset>
+                <legend>
+                    <h2>Contacto</h2>
+                </legend>
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" id="nombre" name="nombre"  placeholder="Ingrese su nombre">
+                <br>
+                <label for="apellido">Apellido:</label>
+                <br>
+                <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+                <br>
+                <label for="mail">Correo electronico:</label>
+                <br>
+                <input type="text" id="mail" name="mail" placeholder="Ingrese su corrreo electronico">
+                <br>
+                <label for="Consulta">Tipo de consulta:</label>
+                <select name="Consulta" id="Consulta">
+                <option value="Duda">Duda</option>
+                <option value="Aporte de informacion">Aporte de informacion</option>
+                <option value="Error de la pagina">Error de la pagina</option>
+                </select>
+                <br>
+                <label for="comentario">Ingrese su consulta:</label>
+                <br>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                <br>
+                <label for="subir">Subir archivo (Captura, video, etc):</label>
+                <input type="file" name="archivo">
+                <br>
+                <input type="submit" value="Enviar">
+                <br>
+            </fieldset>
+        </article>
+
+    </section>
+    <footer>
+        <strong> Derechos Reservados &copy; 2022 - LeandroI. </strong> 
+        <button class="footer__button">
+            <a class="footer__link" href="/html/contacto.html">Contacto</a>
+        </button>
+    </footer>
+</body>
+</html>
