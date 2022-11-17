@@ -18,7 +18,10 @@
 }
 
  @media screen and (max-width: 780px) {
-.contacto {
+    .historia {
+        padding: 20px 30px;
+    }
+    .contacto {
     margin: 10px 30px;
 }
 
@@ -85,7 +88,7 @@
     }
 } 
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1000px) {
 
  .noticias .media1 {
     flex-wrap: wrap-reverse;

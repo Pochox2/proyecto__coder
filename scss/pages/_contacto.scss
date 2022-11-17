@@ -25,9 +25,8 @@
     .contacto__tt {
         font-size: $text-md;
     }
-    // input{
-    //     &:focus{
-    //         border-color: #EFA00B;
-    //     }
-    // }
+    input[type=text] {
+        border: none;
+        border-bottom: 2px solid #EFA00B;
+      }
 }

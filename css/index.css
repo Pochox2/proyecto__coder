@@ -198,8 +198,9 @@ header {
     font-size: 3.6em; }
   .contacto .contacto__tt {
     font-size: 2em; }
-  .contacto input:focus {
-    border-color: #EFA00B; }
+  .contacto input[type=text] {
+    border: none;
+    border-bottom: 2px solid #EFA00B; }
 
 .top10 {
   padding-bottom: 65px; }
@@ -226,6 +227,8 @@ header {
     margin: 20px 200px; } }
 
 @media screen and (max-width: 780px) {
+  .historia {
+    padding: 20px 30px; }
   .contacto {
     margin: 10px 30px; }
   .historiacomp .historia__titulo {
@@ -261,6 +264,6 @@ header {
   .contacto .contacto__tt {
     font-size: 1.6em; } }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1000px) {
   .noticias .media1 {
     flex-wrap: wrap-reverse; } }
